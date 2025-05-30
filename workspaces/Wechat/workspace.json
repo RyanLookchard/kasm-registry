@@ -29,7 +29,7 @@
     }
   ],
   "run_config": {
-    "env": {
+    "environment": {
       "LANG": "zh_CN.UTF-8",
       "USER_ID": "0",
       "GROUP_ID": "0",
