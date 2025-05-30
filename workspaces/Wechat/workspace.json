@@ -16,7 +16,7 @@
       "image": "ricwang/wechat:latest",
       "uncompressed_size_mb": 800,
       "available_tags": [
-        "latest"
+        "develop"
       ]
     },
     {
@@ -24,7 +24,7 @@
       "image": "ricwang/wechat:latest",
       "uncompressed_size_mb": 800,
       "available_tags": [
-        "latest"
+        "develop"
       ]
     }
   ]
