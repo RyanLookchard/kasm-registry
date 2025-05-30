@@ -16,7 +16,7 @@
       "image": "ricwang/wechat:latest",
       "uncompressed_size_mb": 800,
       "available_tags": [
-        "develop"
+        "latest"
       ]
     },
     {
@@ -24,8 +24,19 @@
       "image": "ricwang/wechat:latest",
       "uncompressed_size_mb": 800,
       "available_tags": [
-        "develop"
+        "latest"
       ]
     }
-  ]
+  ],
+  "run_config": {
+    "env": {
+      "LANG": "zh_CN.UTF-8",
+      "USER_ID": "0",
+      "GROUP_ID": "0",
+      "WEB_AUDIO": "1",
+      "TZ": "Asia/Shanghai"
+    },
+    "privileged": true
+  },
+  "notes": "本工作区基于 ricwang/docker-wechat，已设置中文环境、音频支持和时区。如需持久化数据，请参考官方文档自行挂载目录。"
 }
