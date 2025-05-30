@@ -13,7 +13,7 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "ricwang/wechat:latest",
+      "image": "ricwang/docker-wechat:latest",
       "uncompressed_size_mb": 800,
       "available_tags": [
         "latest"
@@ -21,7 +21,7 @@
     },
     {
       "version": "1.17.x",
-      "image": "ricwang/wechat:latest",
+      "image": "ricwang/docker-wechat:latest",
       "uncompressed_size_mb": 800,
       "available_tags": [
         "latest"
