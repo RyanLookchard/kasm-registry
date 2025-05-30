@@ -1,1 +1,22 @@
-
+{
+  "description": "A Docker container for running WeChat, a popular instant messaging application in China.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "wechat.png", // 假设你有一个图标文件，如果没有可以省略或者使用默认图标
+  "categories": [
+    "Communication"
+  ],
+  "friendly_name": "WeChat",
+  "architecture": [
+    "amd64" // 如果 docker-wechat 支持其他架构，请添加它们
+  ],
+  "compatibility": [
+    {
+      "version": "latest", // 使用最新版本作为例子
+      "image": "ricwang/docker-wechat:latest", // 使用实际的镜像名称和标签
+      "uncompressed_size_mb": 0, // 如果知道未压缩大小请填写，否则留空或提供估计值
+      "available_tags": [
+        "latest" // 列出所有可用的标签
+      ]
+    }
+  ]
+}
